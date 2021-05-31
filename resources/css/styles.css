@@ -144,3 +144,43 @@ a{
   width: 25%;
   margin:auto;
 }
+
+@media(max-device-width: 480px){
+  h1{
+    font-size: 800%;
+    font-family: 'Sacramento', cursive;
+  }
+  .container p{
+    font-size: 600%;
+    font-family: 'Sacramento', cursive;
+  }
+  .container{
+    background-color: #E4F9F5;
+    height: 60vh;
+    width: 100%;
+    text-align: center;
+    position: relative;
+  }
+  .top-container{
+    position: relative;
+  }
+  .top-cloud{
+    position: relative;
+    top: 75px;
+    left:300px;
+  }
+  .bottom-cloud{
+    position: relative;
+    top: 100px;
+    right: 300px;
+  }
+  .middle-text-box{
+    position: relative;
+    top: 50px;
+  }
+  .mountain{
+    position: absolute;
+    bottom: 0;
+    transform: translateX(-50%);
+  }
+}
